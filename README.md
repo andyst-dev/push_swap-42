@@ -1,9 +1,9 @@
 # push_swap
 
 A stack-based sorting program developed as part of the 42 curriculum.
-This project consists of sorting a list of integers using two stacks and a very limited set of allowed operations, while aiming to produce the smallest possible sequence of instructions.
+`push_swap` is a sorting program that works with two stacks and a limited set of allowed operations.
 
-`push_swap` was designed to strengthen core C skills around algorithmic thinking, data structure manipulation, and optimization under strict operational constraints.
+It was a good way to build solid foundations in algorithmic thinking, data structure manipulation and optimization under strict constraints in C.
 
 ## Features
 - Sorting with two stacks: `a` and `b`
@@ -26,10 +26,10 @@ This project consists of sorting a list of integers using two stacks and a very 
 - `Makefile` — builds the `push_swap` executable
 
 ## Mandatory part
-The mandatory part implements the `push_swap` program required by the subject.
+The mandatory part focuses on the sorting logic required to sort the input with the allowed stack operations.
 
 ### Program
-- `push_swap` — takes a list of integers as arguments, computes a valid sorting sequence, and prints the required operations to standard output
+- `push_swap` — takes a list of integers as arguments, computes a valid sorting sequence and prints the required operations to standard output
 
 ### Core behavior
 - validates input arguments
@@ -53,12 +53,8 @@ The mandatory part implements the `push_swap` program required by the subject.
 
 ### Sorting approach
 - dedicated logic for very small inputs
-- custom handling for 2, 3, 4, and 5 numbers
+- custom handling for 2, 3, 4 and 5 numbers
 - radix-sort-based approach for larger inputs after index normalization
-
-## Bonus part
-The 42 subject bonus introduces a separate `checker` program.
-This repository is focused on the main `push_swap` program itself.
 
 ## Build
 Build the project:
@@ -85,13 +81,6 @@ Rebuild everything:
 make re
 ```
 
-## Output
-The project builds one executable:
-
-```bash
-push_swap
-```
-
 ## Usage
 Example:
 
@@ -102,7 +91,7 @@ Example:
 The program prints the sequence of operations needed to sort the input.
 
 ## Learning outcomes
-This project was an introduction to constrained algorithm design in C.
+This project was my first real introduction to constrained algorithm design in C.
 It helped build solid foundations in:
 - stack-based data manipulation
 - algorithmic complexity awareness
